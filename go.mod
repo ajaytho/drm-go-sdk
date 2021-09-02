@@ -1,4 +1,4 @@
-module drm-go-sdk
+module github.com/ajaytho/drm-go-sdk
 
 go 1.16
 
