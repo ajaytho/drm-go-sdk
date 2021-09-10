@@ -87,7 +87,7 @@ func NewClient(username, password, url string) *Client {
 // LoadAndValidate establishes a new client connection
 func (c *Client) LoadAndValidate() error {
 
-	versionStruct, err := CreateAPIVersion(1, 11, 9)
+	versionStruct, err := CreateAPIVersion(1, 11, 7)
 	if err != nil {
 		return err
 	}
